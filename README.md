@@ -71,4 +71,14 @@ No terminal bash
 rm -rf .git
 
 git init
+
+ git add .
+
+ git commit -m 'primeiro commit'
+
+ git remote add origin git@github.com:moacirx/laravel11.git
+
+ git branch -M main
+
+ git push -u origin main
 ```
