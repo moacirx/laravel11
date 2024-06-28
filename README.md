@@ -82,3 +82,17 @@ git init
 
  git push -u origin main
 ```
+
+
+
+
+
+
+https://www.macoratti.net/19/02/dock_limp1.htm
+
+
+Docker apagar todas as container
+Contêineres:  docker container rm $(docker container ls -a -q)
+
+Docker apagar todas as imagens
+docker image rm $(docker image ls -a -q)
